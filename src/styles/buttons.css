@@ -1,0 +1,39 @@
+.btn-container {
+  height: 53px;
+  display: flex;
+  flex: 1 1;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 33px;
+  border-radius: 10px;
+  margin: 4px;
+  cursor: pointer;
+  user-select: none;
+  color: #ffffff;
+  border: 3px solid #000;
+}
+
+.operator {
+  background: #0fca25;
+}
+
+.operator:hover {
+  background: #08aa05;
+}
+
+.number {
+  background: #2f4dd9;
+}
+
+.number:hover {
+  background: #2004a9;
+}
+
+.clear {
+  background: #e03039;
+}
+
+.clear:hover {
+  background: #c00409;
+}
